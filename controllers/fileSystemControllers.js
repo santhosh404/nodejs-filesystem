@@ -53,7 +53,7 @@ export const getFiles = (req, res) => {
         }
         res.status(200).json({
             status: 'Success',
-            message: 'File successfully retrieved!',
+            message: 'Files successfully retrieved!',
             data: {
                 files: files
             }

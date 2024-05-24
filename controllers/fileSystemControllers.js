@@ -1,10 +1,13 @@
 import dotenv from 'dotenv';
 import fs from 'fs';
-import moment from 'moment';
+import moment from 'moment-timezone';
 
 dotenv.config()
 
 const baseFolder = process.env.BASE_FOLDER;
+
+// Set default timezone
+moment.tz.setDefault("Asia/Kolkata");
 
 // Creating the folder and writing the current timestamp into it
 export const createFile = (req, res) => {

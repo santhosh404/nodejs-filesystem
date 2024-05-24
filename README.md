@@ -13,3 +13,6 @@ This project provides a simple file management system using Node.js and Express.
 <b>Lastest commit id: bd0fb41bc25af6f463c1d53d050f786cfb906721</b><br/>
 
 Please find the api deployed url: https://nodejs-filesystem-pq8n.onrender.com
+
+
+***Note: Since I'm deployed the apis in onrender's free tier, The initial request is taking time, Please wait little longer for initial request***

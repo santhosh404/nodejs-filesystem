@@ -1,0 +1,1 @@
+This is the default txt file. Since git reject the empty folders, I have created this default txt file.

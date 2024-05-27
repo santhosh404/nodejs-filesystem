@@ -18,5 +18,5 @@ app.use('/api/v1/', fileSystemRoutes);
 
 
 app.listen(process.env.PORT, () => {
-    console.log(`Server up and running at ${process.env.PORT}`)
+    console.log(`Server up and running at ${process.env.PORT}`) //PORT=4000
 })

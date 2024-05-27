@@ -4,7 +4,7 @@ import moment from 'moment-timezone';
 
 dotenv.config()
 
-const baseFolder = process.env.BASE_FOLDER;
+const baseFolder = process.env.BASE_FOLDER; // files
 
 // Set default timezone
 moment.tz.setDefault("Asia/Kolkata");
